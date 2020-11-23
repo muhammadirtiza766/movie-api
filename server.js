@@ -5,4 +5,4 @@ const PORT = process.env.PORT || 5000;
 
 const server = http.createServer(app);
 
-server.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`http://localhost:${PORT}/movies`));
